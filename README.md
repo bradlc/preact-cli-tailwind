@@ -1,16 +1,17 @@
-# preact-default-boilerplate
+# preact-cli-tailwind
 
 ![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)
 
 ## Documentation
-- This is the default template for [preact-cli](https://github.com/developit/preact-cli).
+
+- This is a template for [preact-cli](https://github.com/developit/preact-cli).
 - [For Preact](https://preactjs.com/): General information about how to work with Preact, not specific to this template
 
 ## Usage
 
-``` bash
+```bash
 $ npm install -g preact-cli
-$ preact create default my-project
+$ preact create bradlc/preact-cli-tailwind my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -38,12 +39,12 @@ The `default` template provides a basic test setup with Jest and [`preact-render
 
 You can run all additional Jest CLI commands with the `npm run test` command as described in the [Jest docs](https://facebook.github.io/jest/docs/en/cli.html#using-with-npm-scripts). For example, running jest in watch mode would be :
 
-- `npm run test -- --watch` instead of  `jest --watch `
+`npm run test -- --watch` instead of `jest --watch`
 
 ### Fork It And Make Your Own
 
 You can fork this repo to create your own boilerplate, and use it with `preact-cli`:
 
-``` bash
+```bash
 preact create username/repo my-project
 ```
